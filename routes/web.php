@@ -22,3 +22,6 @@ Route::get('/user', function() {
 Route::get('/danat', function() {
     return view('danat') ;
 });  
+Route::get('/duisen', function() {
+    return view('duisen') ;
+});  
