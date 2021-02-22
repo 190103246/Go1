@@ -25,3 +25,6 @@ Route::get('/danat', function() {
 Route::get('/duisen', function() {
     return view('duisen') ;
 });  
+Route::get('/19', function() {
+    return view('19') ;
+});  
